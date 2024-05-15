@@ -38,22 +38,22 @@ namespace var3
 
         private void RotateToDiscrPage(object sender, RoutedEventArgs e)
         {
-            frame.NavigationService.Navigate(new Uri("DiscrPage.xaml", UriKind.Relative));
+            frame.NavigationService.Navigate(new Uri("Pages/DiscrPage.xaml", UriKind.Relative));
         }
 
         private void RotateToInfoOfDivisionPage(object sender, RoutedEventArgs e)
         {
-            frame.NavigationService.Navigate(new Uri("InfoOfDivisionPage.xaml", UriKind.Relative));
+            frame.NavigationService.Navigate(new Uri("Pages/InfoOfDivisionPage.xaml", UriKind.Relative));
         }
 
         private void RotateToInfoOfSimplificationPage(object sender, RoutedEventArgs e)
         {
-            frame.NavigationService.Navigate(new Uri("InfoOfSimplificationPage.xaml", UriKind.Relative));
+            frame.NavigationService.Navigate(new Uri("Pages/InfoOfSimplificationPage.xaml", UriKind.Relative));
         }
 
         private void RotateToInfoOfSquareRootPage(object sender, RoutedEventArgs e)
         {
-            frame.NavigationService.Navigate(new Uri("InfoOfSquareRootPage.xaml", UriKind.Relative));
+            frame.NavigationService.Navigate(new Uri("Pages/InfoOfSquareRootPage.xaml", UriKind.Relative));
         }
     }
 }

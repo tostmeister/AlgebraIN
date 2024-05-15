@@ -81,37 +81,37 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="DiscrPage.xaml.cs">
+    <Compile Include="Pages\DiscrPage.xaml.cs">
       <DependentUpon>DiscrPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="InfoOfDivisionPage.xaml.cs">
+    <Compile Include="Pages\InfoOfDivisionPage.xaml.cs">
       <DependentUpon>InfoOfDivisionPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="InfoOfSimplificationPage.xaml.cs">
+    <Compile Include="Pages\InfoOfSimplificationPage.xaml.cs">
       <DependentUpon>InfoOfSimplificationPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="InfoOfSquareRootPage.xaml.cs">
+    <Compile Include="Pages\InfoOfSquareRootPage.xaml.cs">
       <DependentUpon>InfoOfSquareRootPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SquareTable.xaml.cs">
+    <Compile Include="Windows\SquareTable.xaml.cs">
       <DependentUpon>SquareTable.xaml</DependentUpon>
     </Compile>
-    <Compile Include="VietaPage.xaml.cs">
+    <Compile Include="Pages\VietaPage.xaml.cs">
       <DependentUpon>VietaPage.xaml</DependentUpon>
     </Compile>
-    <Page Include="DiscrPage.xaml">
+    <Page Include="Pages\DiscrPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="InfoOfDivisionPage.xaml">
+    <Page Include="Pages\InfoOfDivisionPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="InfoOfSimplificationPage.xaml">
+    <Page Include="Pages\InfoOfSimplificationPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="InfoOfSquareRootPage.xaml">
+    <Page Include="Pages\InfoOfSquareRootPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -127,11 +127,11 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="SquareTable.xaml">
+    <Page Include="Windows\SquareTable.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="VietaPage.xaml">
+    <Page Include="Pages\VietaPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
