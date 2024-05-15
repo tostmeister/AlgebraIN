@@ -22,6 +22,10 @@
 
 # Скриншоты приложения:
 
-![Главная страница]()
+![Главная страница](https://github.com/tostmeister/AlgebraIN/blob/main/VAR3/ScreensForRep/MainWindow.jpg)
 ## Главная страница
+</br> </br> </br>
+
+![Страница с калькулятором уравнений](https://github.com/tostmeister/AlgebraIN/blob/main/VAR3/ScreensForRep/MainWindow.jpg)
+## Страница с калькулятором уравнений
 </br> </br> </br>
