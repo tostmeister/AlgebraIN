@@ -20,6 +20,6 @@
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
-        <Image Grid.Column="0" Grid.Row="0" Grid.RowSpan="4" Grid.ColumnSpan="4" Source="Images/SquareTab.png"/>
+        <Image Grid.Column="0" Grid.Row="0" Grid.RowSpan="4" Grid.ColumnSpan="4" Source="/Windows/SquareTab.png"/>
     </Grid>
 </Window>

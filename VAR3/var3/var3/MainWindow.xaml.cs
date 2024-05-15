@@ -33,7 +33,7 @@ namespace var3
 
         private void RotateToVietaPage(object sender, RoutedEventArgs e)
         {
-            frame.NavigationService.Navigate(new Uri("VietaPage.xaml", UriKind.Relative));
+            frame.NavigationService.Navigate(new Uri("Pages/VietaPage.xaml", UriKind.Relative));
         }
 
         private void RotateToDiscrPage(object sender, RoutedEventArgs e)
