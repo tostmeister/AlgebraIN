@@ -1,0 +1,36 @@
+﻿<Page x:Class="var3.InfoOfSquareRootPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:var3"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="InfoOfSquareRootPage">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Квадратный корень" FontSize="24" FontWeight="Bold" Margin="0 0 0 20"/>
+
+        <TextBlock Grid.Row="1" TextWrapping="Wrap" Margin="0 0 0 20">
+            Квадратный корень числа - это значение, которое, когда умножается на себя, дает исходное число.
+            Например, квадратный корень из 9 равен 3, потому что 3 * 3 = 9.
+            <LineBreak/>
+            Квадратный корень числа может быть положительным или отрицательным, но по конвенции, положительное значение обычно принимается как главный квадратный корень.
+            Квадратный корень из отрицательного числа не является вещественным числом, но он может быть выражен как мнимое число.
+            <LineBreak/>
+            Символ квадратного корня - √, и он часто используется в математических выражениях для обозначения квадратного корня числа.
+            Например, квадратный корень из x может быть записан как √x.
+            <LineBreak/>
+            Вот несколько примеров квадратных корней:
+            <LineBreak/>
+            - Квадратный корень из 16 равен 4, потому что 4 * 4 = 16.
+            <LineBreak/>
+            - Квадратный корень из 25 равен 5, потому что 5 * 5 = 25.
+        </TextBlock>
+    </Grid>
+</Page>

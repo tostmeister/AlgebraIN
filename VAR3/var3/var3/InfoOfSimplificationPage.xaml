@@ -1,0 +1,45 @@
+﻿<Page x:Class="var3.InfoOfSimplificationPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:var3"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="InfoOfSimplificationPage">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Рациональные выражения" FontSize="24" FontWeight="Bold" Margin="0 0 0 20"/>
+
+        <TextBlock Grid.Row="1" TextWrapping="Wrap" Margin="0 0 0 20">
+            Рациональное выражение - это математическое выражение, которое может быть записано в виде отношения двух многочленов.
+            То есть, это дробь, в которой числитель и знаменатель являются многочленами.
+            <LineBreak/>
+            <LineBreak/>
+            Для упрощения рационального выражения следуйте этим шагам:
+            <LineBreak/>
+            1. Разложите числитель и знаменатель на множители полностью.
+            <LineBreak/>
+            2. Сократите общие множители между числителем и знаменателем.
+            <LineBreak/>
+            3. Перепишите оставшееся выражение.
+            <LineBreak/>
+            <LineBreak/>
+            Вот несколько примеров:
+            <LineBreak/>
+            Пример 1: Упростите (x^2 - 9) / (x - 3)
+            <LineBreak/>
+            Решение: (x - 3)(x + 3) / (x - 3) = x + 3
+            <LineBreak/>
+            <LineBreak/>
+            Пример 2: Упростите (x^2 - 4x + 4) / (x^2 - 5x + 6)
+            <LineBreak/>
+            Решение: (x - 2)(x - 2) / (x - 3)(x - 2) = (x - 2) / (x - 3)
+        </TextBlock>
+    </Grid>
+</Page>
